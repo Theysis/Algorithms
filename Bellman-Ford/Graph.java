@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
 * Author: Joshua Wyatt
-*
+* Implements Bellman-Ford Algorithm in Java. 
 */ 
 public class Graph {
    private class Edge {
@@ -159,50 +159,3 @@ public class Graph {
 
 
 }
-
-
-
-// class collectData {
-   // public static void main(String[] args) {   
-   //   // variables
-      // int s;
-   //    int numV = 0;
-   //    int numE = 0;
-      // int source;
-      // int destination;
-      // int weighs;
-      // int i = 0;
-      // Graph bf = new Graph();
-   // 
-   // 
-   //   // Reads in the input file
-      // try (Scanner input = new Scanner("graph.txt")) {
-         // s = input.nextInt();
-      //    input.NextLine();
-         // while (input.hasNext()) {
-            // source = input.nextInt();
-         //    numV++;
-            // while (input.hasNextInt()) {
-               // destination = input.nextInt();
-               // weighs = input.nextInt();
-               // bf.edgeMake(source, destination, weighs);
-            //    numE++;
-            // }
-            // input.nextLine();
-         // }
-      // } //catch (FileNotFoundException e) {
-   //    // }
-   //  
-   //   
-   //   /* Writes required output to output.txt
-   //   *   Formatted as just the nodes */
-      // try (PrintWriter writer = new PrintWriter("output.txt")) {
-      // 
-      // 
-      // } catch (FileNotFoundException e) {
-      // } 
-   // 
-   // }
-//    
-// 
-// }
