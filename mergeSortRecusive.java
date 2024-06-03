@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
     /**
 * Author: Joshua Wyatt
-* mergesort through recursion
+* mergesort through recursion.
 */ 
 public class CollectData {
    public static void main(String[] args) {
