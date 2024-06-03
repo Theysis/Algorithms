@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 * Author: Joshua Wyatt
 * mergesort through recursion.
 */ 
-public class CollectData {
+public class mergeSortRecursive {
    public static void main(String[] args) {
       int L = 150000;
       ArrayList<Integer> g = new ArrayList<Integer>(L);
